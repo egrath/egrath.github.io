@@ -1,0 +1,69 @@
+:root {
+    --ContentWidth: 640pt;
+    --DocumentMainFont: "Noto Mono";
+    --DocumentMainFontSize: 12.5pt;
+    --DocumentCodeFont: "PT Mono";
+    --DocumentCodeFontSize: 12pt;
+    --DocumentTextColor: #555555;
+    --DocumentBackgroundColor: #fcfcfc;
+}
+
+@font-face {
+    font-family: "PT Mono";
+    src: url("/css/font/pt-mono.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Noto Mono";
+    src: url("/css/font/noto-mono.woff") format("woff");
+}
+
+body {
+    margin:20pt auto;       
+    background-color: var(--DocumentBackgroundColor);
+    color: var(--DocumentTextColor);
+    font-size: var(--DocumentMainFontSize);
+    max-width: var(--ContentWidth);
+    font-family: var(--DocumentMainFont);
+}
+
+img {
+    max-width: var(--ContentWidth);
+}
+
+pre {
+    max-width: 100%;
+    width: var(--ContentWidth);
+    display: table-cell;
+
+    font-family: var(--DocumentCodeFont);
+    font-size: var(--DocumentCodeFontSize);
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    padding: 4pt;
+    border-radius: 4pt;
+    color: #555555;	
+}
+
+hr {
+    /* border: none; */
+    /* height: 1pt; */
+    background-color: var(--DocumentTextColor);
+}
+
+a {
+   text-decoration: none;    
+} 
+a:link    {color: #008000; }
+a:visited {color: #008000;}
+a:hover   {color: #003300;}
+a:active  {color: #003300;}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
