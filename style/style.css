@@ -1,0 +1,120 @@
+:root {
+	--ContentWidth: 640pt;
+	--DocumentMainFont: "Century Schoolbook";
+	--DocumentMainFontSize: 15pt;
+	--DocumentMainFontWeight: normal;
+	--DocumentHeaderFont: "Century Schoolbook";
+	--DocumentHeaderFontWeight: bold;
+	--DocumentHeaderFontSize1: 24pt;
+	--DocumentHeaderFontSize2: 22pt;
+	--DocumentHeaderFontSize3: 20pt;
+	--DocumentCodeFont: "CentSchbook Mono BT";
+	--DocumentCodeFontSize: 13pt;
+	--DocumentCodeBackgroundColor: rgb(236,236,236);
+	--DocumentCodeTextColor: rgb(85,85,85);
+	--DocumentTextColor: rgb(85,85,85);
+	--DocumentHeaderColor: rgb(125,12,12);
+	--DocumentBackgroundColor: rgb(244,244,244);
+	--DocumentLinkColor: rgb(0,128,0);
+	--LineHeightNormal: 1.2;
+	--LineHeightCode: 1.5;
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: normal;
+	font-style: normal;
+	src: url("CenturySchoolbook.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: bold;
+	font-style: normal;
+	src: url("CenturySchoolbook-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: bold;
+	font-style: italic;
+	src: url("CenturySchoolbook-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: normal;
+	font-style: italic;
+	src: url("CenturySchoolbook-Italic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "CentSchbook Mono BT";
+	src: url("CenturySchoolbookBT-Monospace.woff") format("woff");
+}
+
+body {
+	margin:20pt auto;       
+	background-color: var(--DocumentBackgroundColor);
+	color: var(--DocumentTextColor);
+	font-size: var(--DocumentMainFontSize);
+	font-family: var(--DocumentMainFont);
+	font-weight: var(--DocumentMainFontWeight);
+	line-height: var(--LineHeightNormal);
+	max-width: var(--ContentWidth);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--DocumentHeaderColor);
+	font-family: var(--DocumentHeaderFont);
+	font-weight: var(--DocumentHeaderFontWeight);
+	font-size: var(--DocumentHeaderFontSize1);
+}
+
+h2 {
+	font-size: var(--DocumentHeaderFontSize2);
+}
+
+h3 {
+	font-size: var(--DocumentHeaderFontSize3);
+}
+
+img {
+	max-width: var(--ContentWidth);
+}
+
+pre, code {
+	max-width: 100%;
+	width: var(--ContentWidth);
+	display: table-cell;
+
+	font-family: var(--DocumentCodeFont);
+	font-size: var(--DocumentCodeFontSize);
+	line-height: var(--LineHeightCode);
+	background-color: var(--DocumentCodeBackgroundColor);
+	padding: 4pt;
+	border-radius: 4pt;
+	color: var(--DocumentCodeTextColor);	
+}
+
+hr {
+	/* border: none; */
+	/* height: 1pt; */
+	background-color: var(--DocumentTextColor);
+}
+
+a {
+	text-decoration: none;
+} 
+a:link    {color: var(--DocumentLinkColor); }
+a:visited {color: var(--DocumentLinkColor); }
+a:hover   {color: var(--DocumentLinkColor); }
+a:active  {color: var(--DocumentLinkColor); }
+
+pre {
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
