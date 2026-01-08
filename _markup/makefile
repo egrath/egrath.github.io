@@ -2,7 +2,7 @@
 # this is the makefile for generating html files from our markup sources
 #
 OUTDIR=..
-FILES=$(addprefix $(OUTDIR)/,index.html)
+FILES=$(addprefix $(OUTDIR)/,index.html tests/test.html)
 
 # rule to build all html files
 all: $(FILES)
@@ -11,7 +11,9 @@ all: $(FILES)
 # a markup file in the source directory
 $(OUTDIR)/%.html: %.md
 	@echo -n "generating $@ from $< ... "
+	@if [ ! -d $$(dirname $@) ]; then mkdir -p $$(dirname $@); fi
 	@cat header.txt > $@
 	@markdown -G $< >> $@
 	@cat footer.txt >> $@
 	@echo "done"
+

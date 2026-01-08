@@ -10,7 +10,7 @@
 	--DocumentHeaderFontSize3: 20pt;
 	--DocumentCodeFont: "CentSchbook Mono BT";
 	--DocumentCodeFontSize: 13pt;
-	--DocumentCodeBackgroundColor: rgb(236,236,236);
+	--DocumentCodeBackgroundColor: rgb(230,230,230);
 	--DocumentCodeTextColor: rgb(85,85,85);
 	--DocumentTextColor: rgb(85,85,85);
 	--DocumentHeaderColor: rgb(125,12,12);
@@ -88,18 +88,24 @@ img {
 	max-width: var(--ContentWidth);
 }
 
-pre, code {
+code {
+	font-family: var(--DocumentCodeFont);
+	font-size: var(--DocumentCodeFontSize);
+	color: var(--DocumentCodeTextColor);
+	background-color: var(--DocumentCodeBackgroundColor);
+	padding: 2pt;
+	border-radius: 2pt;
+}
+
+pre {
 	max-width: 100%;
 	width: var(--ContentWidth);
 	display: table-cell;
-
-	font-family: var(--DocumentCodeFont);
-	font-size: var(--DocumentCodeFontSize);
+	
 	line-height: var(--LineHeightCode);
 	background-color: var(--DocumentCodeBackgroundColor);
 	padding: 4pt;
-	border-radius: 4pt;
-	color: var(--DocumentCodeTextColor);	
+	border-radius: 4pt;		
 }
 
 hr {
