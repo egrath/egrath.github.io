@@ -2,26 +2,31 @@
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>index.md</title>
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<h1>Welcome</h1>
+<h1>Nothing to see here &hellip;</h1>
 
-<p>Right now, there is nothing to see here except for the classical &lsquo;Hello, World!&rsquo; example in C:</p>
+<p>&hellip; but feel free to take a look around. This is my personal webspace which acts as a space for various things I want to publish to a broader audience.</p>
 
-<pre><code>#include &lt;stdio.h&gt;  
+<h2>How?</h2>
 
-int main(void)  
-{  
-    fprintf(stdout,"Hello, World!\n");  
-    return 0;  
-}  
-</code></pre>
+<p>I&rsquo;m by far not a designer. I like a simple approach for creating this webpage, something that once set up gets out of my way. This is why i chose the following tools and techniques:</p>
 
-<p>Now, normal text again. Here comes a link to <a href="https://en.wikipedia.org">Wikipedia</a>. And for obvious reasons:</p>
+<ul>
+<li>the content itself is stored as plain markup files with <a href="https://daringfireball.net/projects/markdown/">John Gruber&rsquo;s</a> syntax</li>
+<li>this content is transformed into html with <a href="https://www.pell.portland.or.us/~orc/Code/discount/">Discount</a></li>
+<li>during the transformation, CSS is merged in, which is responsible for the appearance</li>
+</ul>
+
+
+<p>With this approach, whenever I want to create some new page, it boils down to writing something in markup, and rebuild everything (with make)</p>
+
+<p>If you&rsquo;re interested in this, you can also take a look into the <a href="https://github.com/egrath/egrath.github.io">github</a> repository for these pages.</p>
 
 <h2>A cat</h2>
+
+<p>No page is complete without the picture of a cat.</p>
 
 <p><img src="img/cat.png" alt="Ron Perlman Cat" /></p>
 </body>
