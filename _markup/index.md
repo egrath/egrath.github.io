@@ -14,6 +14,10 @@ With this approach, whenever I want to create some new page, it boils down to wr
 
 If you're interested in this, you can also take a look into the [github](https://github.com/egrath/egrath.github.io) repository for these pages.
 
+## What to find here?
+
+All content can be found [here](/pages/pages.html)
+
 ## A cat
 
 No page is complete without the picture of a cat.

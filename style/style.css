@@ -5,9 +5,11 @@
 	--DocumentMainFontWeight: normal;
 	--DocumentHeaderFont: "Century Schoolbook";
 	--DocumentHeaderFontWeight: bold;
-	--DocumentHeaderFontSize1: 24pt;
-	--DocumentHeaderFontSize2: 22pt;
-	--DocumentHeaderFontSize3: 20pt;
+	--DocumentHeaderFontSize1: 26pt;
+	--DocumentHeaderFontSize2: 21pt;
+	--DocumentHeaderFontSize3: 18pt;
+	--DocumentHeaderFontSize4: 15pt;
+	--DocumentHeaderFontSize5: 12pt;
 	--DocumentCodeFont: "CentSchbook Mono BT";
 	--DocumentCodeFontSize: 13pt;
 	--DocumentCodeBackgroundColor: rgb(230,230,230);
@@ -78,10 +80,19 @@ h1 {
 
 h2 {
 	font-size: var(--DocumentHeaderFontSize2);
+	text-decoration: underline solid 1.5pt;
 }
 
 h3 {
 	font-size: var(--DocumentHeaderFontSize3);
+}
+
+h4 {
+	font-size: var(--DocumentHeaderFontSize4);
+}
+
+h5 {
+	font-size: var(--DocumentHeaderFontSize5);
 }
 
 img {
