@@ -10,6 +10,7 @@
 	--DocumentHeaderFontSize3: 18pt;
 	--DocumentHeaderFontSize4: 15pt;
 	--DocumentHeaderFontSize5: 12pt;
+	--DocumentSuperscriptFontSize: 10pt;
 	--DocumentCodeFont: "CentSchbook Mono BT";
 	--DocumentCodeFontSize: 13pt;
 	--DocumentCodeBackgroundColor: rgb(230,230,230);
@@ -123,6 +124,22 @@ hr {
 	border: none;
 	height: 1pt;
 	background-color: var(--DocumentCodeBackgroundColor);
+}
+
+/* sub-, and superscript */
+sub,sup {
+	font-size: var(--DocumentSuperscriptFontSize);
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -8pt;
+}
+
+sub {
+	bottom: 8pt;
 }
 
 /* Table styling */
