@@ -109,11 +109,35 @@ pre {
 }
 
 hr {
-	/* border: none; */
-	/* height: 1pt; */
-	background-color: var(--DocumentTextColor);
+	border: none;
+	height: 1pt;
+	background-color: var(--DocumentCodeBackgroundColor);
 }
 
+/* Table styling */
+table, td, th {
+	border: 2pt solid;
+	border-color: rgb(230,230,230);
+	padding: 6pt;
+}
+
+th {
+	background-color: rgb(230,230,230);
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+}
+
+td {
+	text-align: left;
+}
+
+table {
+	min-width: 40%;
+	border-collapse: collapse;
+}
+
+/* Link styling */
 a {
 	text-decoration: dotted underline;
 } 

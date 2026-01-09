@@ -10,4 +10,13 @@ Code block:
 
 this is a simple C-application which uses `fprintf`
 
+Now comes a table:
 
+name   | value
+-------| ---------
+name1  | value1
+name2  | value2
+
+***
+
+Above is a hr
