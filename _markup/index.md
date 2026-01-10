@@ -1,10 +1,10 @@
 # Nothing to see here ...
 
-... but feel free to take a look around. This is my personal webspace which acts as a space for various things I want to publish to a broader audience. [Ω](https://garm.twilightparadox.com/nextcloud/s/wmoCZYD2ZJ5MQM8)
+... but feel free to take a look around. This is my personal webspace which acts as a space for various things I want to publish to a broader audience. [Ω](https://garm.twilightparadox.com/nextcloud/s/wmoCZYD2ZJ5MQM8 "If you need access, drop me a line")
 
 ## How?
 
-I'm by far not a designer. I like a simple approach for creating this webpage, something that once set up gets out of my way. This is why i chose the following tools and techniques:
+[I'm](/pages/about/about.html) by far not a designer. I like a simple approach for creating this webpage, something that once set up gets out of my way. This is why i chose the following tools and techniques:
 
 * the content itself is stored as plain markup files with [John Gruber's](https://daringfireball.net/projects/markdown/) syntax
 * this content is transformed into html with [Discount](https://www.pell.portland.or.us/~orc/Code/discount/)

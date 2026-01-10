@@ -2,7 +2,7 @@
 # this is the makefile for generating html files from our markup sources
 #
 OUTDIR=..
-FILES=$(addprefix $(OUTDIR)/,index.html tests/test.html pages/pages.html pages/books/books.html)
+FILES=$(addprefix $(OUTDIR)/,index.html tests/test.html pages/pages.html pages/books/books.html pages/about/about.html)
 
 # rule to build all html files
 all: $(FILES)
