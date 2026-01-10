@@ -16,7 +16,7 @@ If you're interested in this, you can also take a look into the [github](https:/
 
 ## What to find here?
 
-All content can be found [here](/pages/pages.html). As some of my articles may refer to external files, they are stored on my Nextcloud, which can be found [here](https://garm.twilightparadox.com/nextcloud/s/wmoCZYD2ZJ5MQM8). The access password is changed from time to time, but right now it's `jsk2-Sji23-23$djks`.
+All content can be found [here](/pages/pages.html).
 
 ## A cat
 
