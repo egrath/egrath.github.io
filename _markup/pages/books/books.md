@@ -9,16 +9,17 @@ This is a list of books for various topics that I've read, have started to read 
 
 ### Intermediate level^(2)
 4. Computer System Architecture (Mano, 1993)
-5. Introduction to Computing Systems (Patt-Patel, 2020)
+5. Computer Design and Architecture (Shiva, 2000)
 
 ### Advanced level
 6. Digital Design and Computer Architecture^(3) (Harris-Harris, 2015)
 7. Digital Design Principles and Practices (Wakerly, 2018)
+8. Advanced Computer Architectures (Shiva, 2006)
 
 ##### Notes to the above list
 
 [1] In my opinion, this one only makes sense in conjunction with the video course available at coursera ([Part1](https://www.coursera.org/learn/build-a-computer), [Part2](https://www.coursera.org/learn/nand2tetris2)), as it's really intended to be used alongside them.
 
-[2] Intermediate level books can be skipped in my opinion. You can immediately jump from introductory to advanced books, they just dive deeper.
+[2] Intermediate level books can be skipped in my opinion. You can immediately jump from introductory to advanced books, they just dive deeper. Alternatively, you can directly start with the intermediate books, they all cover the basics too, but in a way more concise way.
 
 [3] This book is intended as either the reading for a undergraduate course or as a self-studying guide. For the former, there are two EdX courses available that you can take ([Part1](https://www.edx.org/learn/design/harvey-mudd-college-digital-design), [Part2](https://www.edx.org/learn/computer-architecture/harvey-mudd-college-computer-architecture)). Another course from ETH Zurich which makes use of this book is also available, but it's just the course and you don't get any certificate if you're into that ([Link](https://safari.ethz.ch/digitaltechnik/spring2018/doku.php?id=schedule))

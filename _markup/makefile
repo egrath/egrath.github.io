@@ -7,6 +7,11 @@ FILES=$(addprefix $(OUTDIR)/,index.html tests/test.html pages/pages.html pages/b
 # rule to build all html files
 all: $(FILES)
 
+# rule to rebuild everything
+rebuild:
+	@find . -name \*.md -exec touch {} \;
+	@make all
+
 # rule to build a html file in the output directory from
 # a markup file in the source directory
 $(OUTDIR)/%.html: %.md
