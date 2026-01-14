@@ -45,7 +45,10 @@ This is a list of books for various topics that I've read, have started to read 
 
 ## Electronics
 
-1. Principles of Electric Circuits (Buchly-Floyd, 2020)^(1)
+1. Principles of Electric Circuits (Buchla-Floyd, 2020)^(1)
+2. Electronic Devices (Floyd, 2018)^(2)
 
 ##### Notes to the above list
 [1] Always go with the version for conventional current flow
+[2] This book can be seen as a continuation of [1] which after having good knowledge of electrical circuits, deep-dives into semiconductor devices
+
