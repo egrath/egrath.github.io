@@ -7,3 +7,7 @@
 	<link rel="icon" type="image/png" href="/img/favicon32.png"/>
 </head>
 <body>
+<nav style="float:right">
+	<img src="/img/github.svg" height=16pt style="padding-right: 4pt; position: relative; top: 2pt"/><a href="https://github.com/egrath">github</a>
+</nav>
+

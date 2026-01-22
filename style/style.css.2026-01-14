@@ -1,0 +1,183 @@
+:root {
+	--ContentWidth: 720pt;
+	--DocumentMainFont: "Century Schoolbook";
+	--DocumentMainFontSize: 15pt;
+	--DocumentMainFontWeight: normal;
+	--DocumentHeaderFont: "Century Schoolbook";
+	--DocumentHeaderFontWeight: bold;
+	--DocumentHeaderFontSize1: 26pt;
+	--DocumentHeaderFontSize2: 21pt;
+	--DocumentHeaderFontSize3: 18pt;
+	--DocumentHeaderFontSize4: 15pt;
+	--DocumentHeaderFontSize5: 12pt;
+	--DocumentSuperscriptFontSize: 10pt;
+	--DocumentCodeFont: "CentSchbook Mono BT";
+	--DocumentCodeFontSize: 13pt;
+	--DocumentCodeBackgroundColor: rgb(230,230,230);
+	--DocumentCodeTextColor: rgb(85,85,85);
+	--DocumentTextColor: rgb(85,85,85);
+	--DocumentHeaderColor: rgb(125,12,12);
+	--DocumentBackgroundColor: rgb(244,244,244);
+	--DocumentLinkColor: rgb(125,12,12);
+	--LineHeightNormal: 1.5;
+	--LineHeightCode: 1.3;
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: normal;
+	font-style: normal;
+	src: url("CenturySchoolbook.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: bold;
+	font-style: normal;
+	src: url("CenturySchoolbook-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: bold;
+	font-style: italic;
+	src: url("CenturySchoolbook-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Century Schoolbook";
+	font-weight: normal;
+	font-style: italic;
+	src: url("CenturySchoolbook-Italic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "CentSchbook Mono BT";
+	src: url("CenturySchoolbookBT-Monospace.woff") format("woff");
+}
+
+body {
+	margin:0pt auto;
+	background-color: var(--DocumentBackgroundColor);
+	color: var(--DocumentTextColor);
+	font-size: var(--DocumentMainFontSize);
+	font-family: var(--DocumentMainFont);
+	font-weight: var(--DocumentMainFontWeight);
+	line-height: var(--LineHeightNormal);
+	max-width: var(--ContentWidth);
+	width: 96%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--DocumentHeaderColor);
+	font-family: var(--DocumentHeaderFont);
+	font-weight: var(--DocumentHeaderFontWeight);
+	font-size: var(--DocumentHeaderFontSize1);
+}
+
+h1 {
+	border-bottom: 1.5pt solid;
+}
+
+h2 {
+	font-size: var(--DocumentHeaderFontSize2);
+	text-decoration: underline solid 1.5pt;
+}
+
+h3 {
+	font-size: var(--DocumentHeaderFontSize3);
+}
+
+h4 {
+	font-size: var(--DocumentHeaderFontSize4);
+}
+
+h5 {
+	font-size: var(--DocumentHeaderFontSize5);
+}
+
+img {
+	max-width: var(--ContentWidth);
+}
+
+code {
+	font-family: var(--DocumentCodeFont);
+	font-size: var(--DocumentCodeFontSize);
+	color: var(--DocumentCodeTextColor);
+	background-color: var(--DocumentCodeBackgroundColor);
+	padding: 2pt;
+	border-radius: 2pt;
+}
+
+pre {
+	max-width: 100%;
+	width: var(--ContentWidth);
+	display: table-cell;
+	
+	line-height: var(--LineHeightCode);
+	background-color: var(--DocumentCodeBackgroundColor);
+	padding: 4pt;
+	border-radius: 4pt;		
+}
+
+hr {
+	border: none;
+	height: 1pt;
+	background-color: var(--DocumentCodeBackgroundColor);
+}
+
+/* sub-, and superscript */
+sub,sup {
+	font-size: var(--DocumentSuperscriptFontSize);
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -8pt;
+}
+
+sub {
+	bottom: 8pt;
+}
+
+/* Table styling */
+table, td, th {
+	border: 2pt solid;
+	border-color: rgb(230,230,230);
+	padding: 6pt;
+}
+
+th {
+	background-color: rgb(230,230,230);
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+}
+
+td {
+	text-align: left;
+}
+
+table {
+	min-width: 40%;
+	border-collapse: collapse;
+}
+
+/* Link styling */
+a {
+	text-decoration: dotted underline;
+} 
+a:link    {color: var(--DocumentLinkColor); }
+a:visited {color: var(--DocumentLinkColor); }
+a:hover   {color: var(--DocumentLinkColor); }
+a:active  {color: var(--DocumentLinkColor); }
+
+pre {
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
