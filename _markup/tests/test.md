@@ -1,3 +1,6 @@
+# This is the h1 header of the page
+
+## Demo of Code Blocks
 Code block:
 
     #include <stdio.h>
@@ -10,6 +13,7 @@ Code block:
 
 this is a simple C-application which uses `fprintf`
 
+## Demo of Table
 Now comes a table:
 
 name   | value
@@ -17,6 +21,7 @@ name   | value
 name1  | value1
 name2  | value2
 
+### Demo of horizontal rule
 ***
 
 Above is a hr

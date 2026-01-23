@@ -1,18 +1,17 @@
 :root {
 	--ContentWidth: 720pt;
-	--DocumentMainFont: "Libre Baskerville";
-	--DocumentMainFontSize: 13.5pt;
+	--DocumentMainFont: "Century Schoolbook";
+	--DocumentMainFontSize: 15pt;
 	--DocumentMainFontWeight: normal;
-	--DocumentHeaderFont: "Libre Baskerville";
+	--DocumentHeaderFont: "Century Schoolbook";
 	--DocumentHeaderFontWeight: bold;
 	--DocumentHeaderFontSize1: 26pt;
 	--DocumentHeaderFontSize2: 21pt;
 	--DocumentHeaderFontSize3: 18pt;
 	--DocumentHeaderFontSize4: 15pt;
 	--DocumentHeaderFontSize5: 12pt;
-	--DocumentHeaderFontSize6: 9pt;
 	--DocumentSuperscriptFontSize: 10pt;
-	--DocumentCodeFont: "Inconsolata";
+	--DocumentCodeFont: "CentSchbook Mono BT";
 	--DocumentCodeFontSize: 13pt;
 	--DocumentCodeBackgroundColor: rgb(230,230,230);
 	--DocumentCodeTextColor: rgb(85,85,85);
@@ -25,36 +24,36 @@
 }
 
 @font-face {
-	font-family: "Libre Baskerville";
+	font-family: "Century Schoolbook";
 	font-weight: normal;
 	font-style: normal;
-	src: url("LibreBaskerville-Regular.woff2") format("woff2");
+	src: url("CenturySchoolbook.woff") format("woff");
 }
 
 @font-face {
-	font-family: "Libre Baskerville";
+	font-family: "Century Schoolbook";
 	font-weight: bold;
 	font-style: normal;
-	src: url("LibreBaskerville-Bold.woff2") format("woff2");
+	src: url("CenturySchoolbook-Bold.woff") format("woff");
 }
 
 @font-face {
-	font-family: "Libre Baskerville";
+	font-family: "Century Schoolbook";
 	font-weight: bold;
 	font-style: italic;
-	src: url("LibreBaskerville-BoldItalic.woff2") format("woff2");
+	src: url("CenturySchoolbook-BoldItalic.woff") format("woff");
 }
 
 @font-face {
-	font-family: "Libre Baskerville";
+	font-family: "Century Schoolbook";
 	font-weight: normal;
 	font-style: italic;
-	src: url("LibreBaskerville-Italic.woff2") format("woff2");
+	src: url("CenturySchoolbook-Italic.woff") format("woff");
 }
 
 @font-face {
-	font-family: "Inconsolata";
-	src: url("Inconsolata-Regular.woff2") format("woff2");
+	font-family: "CentSchbook Mono BT";
+	src: url("CenturySchoolbookBT-Monospace.woff") format("woff");
 }
 
 body {
@@ -95,13 +94,6 @@ h4 {
 
 h5 {
 	font-size: var(--DocumentHeaderFontSize5);
-}
-
-h6 {
-	font-size: var(--DocumentHeaderFontSize6);
-	font-style: italic;	
-	font-weight: normal;
-	margin-top: -10pt;
 }
 
 img {
