@@ -12,8 +12,8 @@
 	--DocumentHeaderFontSize5: 12pt;
 	--DocumentHeaderFontSize6: 9pt;
 	--DocumentSuperscriptFontSize: 10pt;
-	--DocumentCodeFont: "Julia Mono";
-	--DocumentCodeFontSize: 12pt;
+	--DocumentCodeFont: "Inconsolata";
+	--DocumentCodeFontSize: 13pt;
 	--DocumentCodeBackgroundColor: rgb(230,230,230);
 	--DocumentCodeTextColor: rgb(85,85,85);
 	--DocumentTextColor: rgb(85,85,85);
@@ -53,8 +53,8 @@
 }
 
 @font-face {
-	font-family: "Julia Mono";
-	src: url("JuliaMono-RegularLatin.woff2") format("woff2");
+	font-family: "Inconsolata";
+	src: url("Inconsolata-Regular.woff2") format("woff2");
 }
 
 body {
