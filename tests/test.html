@@ -1,10 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="/style/style.css"/>
-	<link rel="icon" type="image/png" href="/img/favicon32.png"/>
+<head> 
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="/style/style.css"/>
+    <link rel="icon" type="image/png" href="/img/favicon32.png"/>
+    
+    <!-- KaTeX renderer -->
+    <link rel="stylesheet" href="/katex/katex.css">
+    <script defer src="/katex/katex.js"></script>
+    <script defer src="/katex/auto-render.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            throwOnError : false
+        });
+    });
+    </script>
 </head>
 <body>
 <nav style="float:right">
@@ -59,5 +79,10 @@ int main(int argc, char **argv)
 <p>Above is a hr</p>
 
 <p>We are now testing some superscript<sup>1</sup> for footnotes<sup>444</sup></p>
+
+<h3>Demo of $\KaTeX$ rendering</h3>
+
+<p>Find $\{x,y,z\} \in \N$ where:<br/>
+$$x^2+y^2=z^2$$</p>
 </body>
 </html>

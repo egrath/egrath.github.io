@@ -28,3 +28,8 @@ Above is a hr
 
 We are now testing some superscript^(1) for footnotes^(444)
 
+### Demo of $\KaTeX$ rendering
+
+Find $\{x,y,z\} \in \N$ where:
+$$x^2+y^2=z^2$$
+

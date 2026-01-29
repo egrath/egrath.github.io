@@ -18,7 +18,7 @@ $(OUTDIR)/%.html: %.md
 	@echo -n "generating $@ from $< ... "
 	@if [ ! -d $$(dirname $@) ]; then mkdir -p $$(dirname $@); fi
 	@cat header.txt > $@
-	@markdown -G $< >> $@
+	@markdown -f LATEX -G $< >> $@
 	@cat footer.txt >> $@
 	@echo "done"
 
