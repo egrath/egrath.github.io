@@ -8,16 +8,17 @@ This is a list of books for various topics that I've read, have started to read 
 3. The Elements of Computing Systems^(1) (Nisan-Schocken, 2021)
 
 ### Intermediate level^(2)
-4. Computer System Architecture (Mano, 1993)
-5. Computer Design and Architecture (Shiva, 2000)
+4. Computer System Architecture (Mano, 2007)
+5. Digital Logic and Computer Design (Mano, 2016)
+6. Computer Design and Architecture (Shiva, 2000)
 
 ### Advanced level
-6. Digital Design and Computer Architecture^(3) (Harris-Harris, 2015)
-7. Digital Design Principles and Practices (Wakerly, 2018)
-8. Advanced Computer Architectures (Shiva, 2006)
+7. Digital Design and Computer Architecture^(3) (Harris-Harris, 2015)
+8. Digital Design Principles and Practices (Wakerly, 2018)
+9. Advanced Computer Architectures (Shiva, 2006)
 
 ### Additional
-9. Digital Logic Circuit Design and Analysis (Nelson et al., 1995)^(4)
+10. Digital Logic Circuit Design and Analysis (Nelson et al., 1995)^(4)
 
 ##### Notes to the above list
 
